@@ -265,7 +265,7 @@ export default function Home() {
               </div>
 
               <div className="mt-7 grid grid-cols-2 gap-y-3 text-slate-300">
-                <p>→ Obične sijalice</p>
+                
                 <p>→ LED sijalice</p>
               </div>
 
