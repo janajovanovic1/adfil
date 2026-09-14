@@ -112,7 +112,7 @@ export default function ContactPage() {
                   </p>
 
                   <p className="text-lg font-semibold text-slate-900 mt-1">
-                    +381 XX XXX XXXX
+                    +381 63 811 8014
                   </p>
                 </div>
 

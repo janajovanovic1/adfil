@@ -193,106 +193,124 @@ export default function CatalogPage() {
 
           <div className="grid md:grid-cols-3 gap-6">
 
+            
             {/* PROIZVOD 1 */}
-            <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-lg transition">
+<Link
+  href="/katalog/ad-4216"
+  className="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:border-[#9BBC5C] transition block"
+>
 
-              <div className="h-52 bg-slate-100 flex items-center justify-center">
+  <div className="h-52 bg-slate-100 flex items-center justify-center p-6">
 
-                <div className="text-center">
+    <img
+      src="/images/products/filteri/ad-4216.png"
+      alt="ADFIL filter ulja AD-4216"
+      className="max-h-full max-w-full object-contain group-hover:scale-105 transition duration-300"
+    />
 
-                  <p className="text-[#9BBC5C] font-bold text-sm tracking-widest">
-                    ADFIL
-                  </p>
-
-                  <p className="text-slate-400 text-sm mt-2">
-                    FILTER
-                  </p>
-
-                </div>
-
-              </div>
+  </div>
 
 
-              <div className="p-6">
+  <div className="p-6">
 
-                <p className="text-xs text-slate-400 uppercase tracking-widest">
-                  Filteri
-                </p>
+    <p className="text-xs text-[#9BBC5C] uppercase tracking-widest font-semibold">
+      Filteri
+    </p>
 
-                <h3 className="text-xl font-bold text-slate-900 mt-2">
-                  Filter ulja
-                </h3>
+    <h3 className="text-xl font-bold text-slate-900 mt-2">
+      Filter ulja
+    </h3>
 
-                <p className="text-slate-500 mt-3 leading-6">
-                  Kvalitetan filter za pouzdanu filtraciju motornog ulja.
-                </p>
-
-                <div className="border-t border-slate-100 mt-5 pt-4">
-
-                  <p className="text-sm text-slate-400">
-                    Šifra proizvoda
-                  </p>
-
-                  <p className="font-semibold text-slate-700 mt-1">
-                    ADF-001
-                  </p>
-
-                </div>
-
-              </div>
-
-            </div>
+    <p className="text-slate-500 mt-3 leading-6">
+      Kvalitetan filter ulja namenjen pouzdanoj filtraciji
+      motornog ulja i zaštiti motora.
+    </p>
 
 
-            {/* PROIZVOD 2 */}
-            <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-lg transition">
+    <div className="border-t border-slate-100 mt-5 pt-4">
 
-              <div className="h-52 bg-slate-100 flex items-center justify-center">
+      <div className="flex justify-between items-center">
 
-                <div className="text-center">
+        <div>
+          <p className="text-sm text-slate-400">
+            Šifra proizvoda
+          </p>
 
-                  <p className="text-[#9BBC5C] font-bold text-sm tracking-widest">
-                    ADFIL
-                  </p>
+          <p className="font-semibold text-slate-700 mt-1">
+            AD-4216
+          </p>
+        </div>
 
-                  <p className="text-slate-400 text-sm mt-2">
-                    FILTER
-                  </p>
+        <span className="text-[#9BBC5C] font-bold text-xl group-hover:translate-x-1 transition">
+          →
+        </span>
 
-                </div>
+      </div>
 
-              </div>
+    </div>
+
+  </div>
+
+</Link>
 
 
-              <div className="p-6">
+           
+  {/* PROIZVOD 2 */}
+<Link
+  href="/katalog/ad-9072"
+  className="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:border-[#9BBC5C] transition block"
+>
 
-                <p className="text-xs text-slate-400 uppercase tracking-widest">
-                  Filteri
-                </p>
+  <div className="h-52 bg-slate-100 flex items-center justify-center p-6">
 
-                <h3 className="text-xl font-bold text-slate-900 mt-2">
-                  Filter vazduha
-                </h3>
+    <img
+      src="/images/products/filteri/ad-9072.png"
+      alt="ADFIL filter vazduha AD-9072"
+      className="max-h-full max-w-full object-contain group-hover:scale-105 transition duration-300"
+    />
 
-                <p className="text-slate-500 mt-3 leading-6">
-                  Filter namenjen efikasnoj filtraciji vazduha za motor.
-                </p>
+  </div>
 
-                <div className="border-t border-slate-100 mt-5 pt-4">
+  <div className="p-6">
 
-                  <p className="text-sm text-slate-400">
-                    Šifra proizvoda
-                  </p>
+    <p className="text-xs text-[#9BBC5C] uppercase tracking-widest font-semibold">
+      Filteri
+    </p>
 
-                  <p className="font-semibold text-slate-700 mt-1">
-                    ADF-002
-                  </p>
+    <h3 className="text-xl font-bold text-slate-900 mt-2">
+      Filter vazduha
+    </h3>
 
-                </div>
+    <p className="text-slate-500 mt-3 leading-6">
+      ADFIL filter vazduha namenjen je efikasnoj filtraciji
+      vazduha i pouzdanom radu motora.
+    </p>
 
-              </div>
+    <div className="border-t border-slate-100 mt-5 pt-4">
 
-            </div>
+      <div className="flex justify-between items-center">
+
+        <div>
+          <p className="text-sm text-slate-400">
+            Šifra proizvoda
+          </p>
+
+          <p className="font-semibold text-slate-700 mt-1">
+            AD-9072
+          </p>
+        </div>
+
+        <span className="text-[#9BBC5C] font-bold text-xl group-hover:translate-x-1 transition">
+          →
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</Link>
 
 
             {/* PROIZVOD 3 */}
