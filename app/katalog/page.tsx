@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const categories = [
   {
@@ -313,55 +314,56 @@ export default function CatalogPage() {
 </Link>
 
 
-            {/* PROIZVOD 3 */}
-            <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-lg transition">
+{/* PROIZVOD 3 */}
+<Link
+  href="/katalog/led-001"
+  className="group block bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-lg transition"
+>
+  <div className="h-52 bg-slate-100 flex items-center justify-center p-6">
+    <Image
+      src="/images/products/sijalice/led01.png"
+      alt="ADFIL H7 LED sijalica"
+      width={250}
+      height={200}
+      className="max-h-44 w-auto object-contain"
+    />
+  </div>
 
-              <div className="h-52 bg-slate-100 flex items-center justify-center">
+  <div className="p-6">
 
-                <div className="text-center">
+    <p className="text-xs text-slate-400 uppercase tracking-widest">
+      Sijalice
+    </p>
 
-                  <p className="text-[#9BBC5C] font-bold text-sm tracking-widest">
-                    ADFIL
-                  </p>
+    <h3 className="text-xl font-bold text-slate-900 mt-2">
+      H7 LED sijalica
+    </h3>
 
-                  <p className="text-slate-400 text-sm mt-2">
-                    LED
-                  </p>
+    <p className="text-slate-500 mt-3 leading-6">
+      ADFIL H7 LED sijalica namenjena je modernizaciji
+      automobilske rasvete i poboljšanoj vidljivosti.
+    </p>
 
-                </div>
+    <div className="border-t border-slate-100 mt-5 pt-4 flex items-end justify-between">
 
-              </div>
+      <div>
+        <p className="text-sm text-slate-400">
+          Šifra proizvoda
+        </p>
 
+        <p className="font-semibold text-slate-700 mt-1">
+          LED-001
+        </p>
+      </div>
 
-              <div className="p-6">
+      <span className="text-[#9BBC5C] font-bold text-2xl group-hover:translate-x-1 transition">
+        →
+      </span>
 
-                <p className="text-xs text-slate-400 uppercase tracking-widest">
-                  Sijalice
-                </p>
+    </div>
 
-                <h3 className="text-xl font-bold text-slate-900 mt-2">
-                  LED sijalica
-                </h3>
-
-                <p className="text-slate-500 mt-3 leading-6">
-                  LED sijalica namenjena različitim potrebama vozila.
-                </p>
-
-                <div className="border-t border-slate-100 mt-5 pt-4">
-
-                  <p className="text-sm text-slate-400">
-                    Šifra proizvoda
-                  </p>
-
-                  <p className="font-semibold text-slate-700 mt-1">
-                    ADF-003
-                  </p>
-
-                </div>
-
-              </div>
-
-            </div>
+  </div>
+</Link>
 
           </div>
 
