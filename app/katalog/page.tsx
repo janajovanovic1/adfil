@@ -185,10 +185,11 @@ export default function CatalogPage() {
               </div>
 
               <h2 className="text-4xl font-bold text-slate-900">
-                ADFIL proizvodi
+                Aktuelni proizvodi
               </h2>
 
             </div>
+            
 
             <p className="hidden md:block text-sm text-slate-400">
               Katalog se kontinuirano ažurira
@@ -369,6 +370,24 @@ export default function CatalogPage() {
 
   </div>
 </Link>
+{/* DUGMAD ZA KOMPLETAN ASORTIMAN */}
+<div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-10">
+
+  <Link
+    href="/katalog/filteri"
+    className="px-8 py-4 rounded-lg border-2 border-[#9BBC5C] text-slate-900 font-bold hover:bg-[#9BBC5C] transition"
+  >
+    Svi filteri →
+  </Link>
+
+  <Link
+    href="/katalog/sijalice"
+    className="px-8 py-4 rounded-lg border-2 border-[#9BBC5C] text-slate-900 font-bold hover:bg-[#9BBC5C] transition"
+  >
+    Sve sijalice →
+  </Link>
+
+</div>
 
           </div>
 
