@@ -18,9 +18,9 @@ const categories = [
     number: "02",
     name: "Sijalice",
     description:
-      "Standardne i LED sijalice za različite potrebe i modele vozila.",
+      "LED sijalice za različite potrebe i modele vozila.",
     products: [
-      "Obične sijalice",
+      
       "LED sijalice",
     ],
   },

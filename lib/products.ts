@@ -50,6 +50,61 @@ export const products = {
       ["Potreban broj komada", "1"],
     ],
   },
+  "ad-5315": {
+  sifra: "AD-5315",
+  naziv: "Filter goriva",
+  kategorija: "Filteri",
+  tip: "goriva",
+  opis:
+    "ADFIL filter goriva namenjen je efikasnoj filtraciji goriva i zaštiti sistema za dovod goriva u vozilu.",
+  slika: "/images/products/filteri/ad-5315.png",
+
+  oem: "3C0127434",
+
+  reference: [
+    "QWP WFF198",
+    "FILTRON PE973/3",
+    "MANN PU 825 X",
+  ],
+
+  vozila: "VW grupacija",
+
+  specifikacije: [
+    ["Izvedba filtera", "Uložak filtera"],
+    ["Potreban broj komada", "1"],
+    ["Spoljašnji prečnik [mm]", "78"],
+    ["Unutrašnji prečnik 1 [mm]", "12"],
+    ["Unutrašnji prečnik [mm]", "12"],
+    ["Visina [mm]", "136"],
+  ],
+},
+"ad-5374": {
+  sifra: "AD-5374",
+  naziv: "Filter goriva",
+  kategorija: "Filteri",
+  tip: "goriva",
+  opis:
+    "ADFIL filter goriva namenjen je efikasnoj filtraciji goriva i pouzdanom radu sistema za dovod goriva.",
+  slika: "/images/products/filteri/ad-5374.png",
+
+  oem: "3C0127434",
+
+  reference: [
+    "QWP WFF696",
+    "FILTRON PP 991",
+    "MANN WK 6003",
+  ],
+
+  vozila: "VW grupacija",
+
+  specifikacije: [
+    ["Izvedba filtera", "Filter vodova"],
+    ["Potreban broj komada", "1"],
+    ["Spoljašnji prečnik [mm]", "55"],
+    ["Unutrašnji prečnik 1 [mm]", "9"],
+    ["Visina [mm]", "248"],
+  ],
+},
     "led-001": {
     sifra: "LED-001",
     naziv: "H7 LED sijalica",
