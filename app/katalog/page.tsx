@@ -101,10 +101,15 @@ export default function CatalogPage() {
         <div className="grid md:grid-cols-2 gap-8">
 
           {categories.map((category) => (
-            <div
-              key={category.number}
-              className="group border border-slate-200 rounded-2xl p-8 hover:border-[#9BBC5C] hover:shadow-xl transition"
-            >
+  <Link
+  href={
+    category.name === "Filteri"
+      ? "/katalog/filteri"
+      : "/katalog/sijalice"
+  }
+    key={category.number}
+    className="group border border-slate-200 rounded-2xl p-8 hover:border-[#9BBC5C] hover:shadow-xl transition block"
+  >
 
               <div className="flex items-start justify-between">
 
@@ -154,7 +159,7 @@ export default function CatalogPage() {
 
               </div>
 
-            </div>
+            </Link>
           ))}
 
         </div>
