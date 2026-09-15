@@ -50,4 +50,26 @@ export const products = {
       ["Potreban broj komada", "1"],
     ],
   },
+    "led-001": {
+    sifra: "LED-001",
+    naziv: "H7 LED sijalica",
+    kategorija: "Sijalice",
+    opis:
+      "ADFIL H7 LED sijalica namenjena je modernizaciji automobilske rasvete i pruža snažno i kvalitetno osvetljenje.",
+    slika: "/images/products/sijalice/led01.png",
+
+    oem: "H7",
+
+    reference: [],
+
+    vozila: "Vozila sa H7 tipom sijalice",
+
+    specifikacije: [
+      ["Tip sijalice", "H7"],
+      ["Jačina", "30 W"],
+      ["LED boja", "6000 ± 500 K"],
+      ["Lumen pri ugradnji", "4000 ± 10% lm"],
+      ["Lumen nakon zagrevanja motora", "2800 ± 10% lm"],
+    ],
+  },
 };
