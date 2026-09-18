@@ -328,7 +328,7 @@ export default function CatalogPage() {
   <div className="h-52 bg-slate-100 flex items-center justify-center p-6">
     <Image
       src="/images/products/sijalice/led01.png"
-      alt="ADFIL H7 LED sijalica"
+      alt="ADFIL HB3 LED sijalica"
       width={250}
       height={200}
       className="max-h-44 w-auto object-contain"
@@ -342,11 +342,11 @@ export default function CatalogPage() {
     </p>
 
     <h3 className="text-xl font-bold text-slate-900 mt-2">
-      H7 LED sijalica
+      HB3 LED sijalica
     </h3>
 
     <p className="text-slate-500 mt-3 leading-6">
-      ADFIL H7 LED sijalica namenjena je modernizaciji
+      ADFIL HB3 LED sijalica namenjena je modernizaciji
       automobilske rasvete i poboljšanoj vidljivosti.
     </p>
 

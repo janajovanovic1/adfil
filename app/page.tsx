@@ -229,6 +229,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6">
 
             {/* FILTERI */}
+            
             <div className="border border-slate-700 rounded-2xl p-8 hover:border-[#9BBC5C] transition">
 
               <div className="flex items-center justify-between">
