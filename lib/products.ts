@@ -157,6 +157,33 @@ export const products = {
     ["Visina [mm]", "25"],
     ["Širina [mm]", "206"],
   ],
+  
+},
+"ad-3638": {
+  sifra: "AD-3638",
+  naziv: "Filter vazduha",
+  kategorija: "Filteri",
+  opis:
+    "ADFIL filter vazduha namenjen je efikasnoj filtraciji vazduha i pouzdanom radu motora.",
+  slika: "/images/products/filteri/ad-3638.png",
+
+  oem: " 8D0133843",
+
+  reference: [
+    "QWP WAF113",
+    "FILTRON AP 063/1",
+    "MANN C 26 151",
+  ],
+
+  vozila: "VW grupacija",
+
+  specifikacije: [
+    ["Izvedba filtera", "Filter za vazduh"],
+    ["Potreban broj komada", "1"],
+    ["Dužina [mm]", "253"],
+    ["Visina [mm]", "55"],
+    ["Širina [mm]", "213"],
+  ],
 },
     "led-001": {
     sifra: "LED-001",
@@ -173,12 +200,14 @@ export const products = {
     vozila: "Vozila sa HB3 tipom sijalice",
 
     specifikacije: [
-      ["Tip sijalice", "HB3"],
-      ["Jačina", "30 W"],
-      ["LED boja", "6000 ± 500 K"],
-      ["Lumen pri ugradnji", "4000 ± 10% lm"],
-      ["Lumen nakon zagrevanja motora", "2800 ± 10% lm"],
-    ],
+  ["Tip sijalice", "HB3 / 9005"],
+  ["Baza", "P20d"],
+  ["Napon", "9–36 V DC"],
+  ["Jačina", "30 W"],
+  ["LED boja", "6000 ± 500 K"],
+  ["Svetlosni fluks", "4000 ± 10% lm"],
+  ["Lumen nakon zagrevanja", "2800 ± 10% lm"],
+],
   },
   "led-002": {
   sifra: "LED-002",
@@ -208,5 +237,55 @@ export const products = {
     ["Hlađenje", "Aktivno hlađenje"],
     ["Materijal kućišta", "Aluminijum"],
   ],
+  
 },
+"led-003": {
+  sifra: "LED-003",
+  naziv: "H7 LED sijalica",
+  kategorija: "Sijalice",
+  opis:
+    "ADFIL H7 LED sijalica namenjena je modernizaciji automobilske rasvete i pruža jako i stabilno belo svetlo uz efikasno odvođenje toplote.",
+  slika: "/images/products/sijalice/h7.png",
+
+  oem: "H7",
+  
+  reference: [
+  "H7",
+  "PX26d",
+  "64210",
+],
+
+  vozila: "Vozila sa H7 sistemom",
+
+  specifikacije: [
+      ["Tip sijalice", "H7"],
+      ["Jačina", "30 W"],
+      ["LED boja", "6000 ± 500 K"],
+      ["Lumen pri ugradnji", "4000 ± 10% lm"],
+      ["Lumen nakon zagrevanja motora", "2800 ± 10% lm"],
+    ],
+  
+},
+"led-004": {
+  sifra: "AD-H4",
+  naziv: "ADFIL H4 LED sijalica",
+  kategorija: "Sijalice",
+  slika: "/images/products/sijalice/h4.png",
+
+  reference: [
+    "H4",
+    "P43t",
+  ],
+
+  specifikacije: [
+    ["Tip sijalice", "H4"],
+    ["Baza", "P43t"],
+    ["Napon", "12 V"],
+    ["Jačina", "30 W"],
+    ["LED boja", "6000 ± 500 K"],
+    ["Svetlosni fluks", "4000 ± 10% lm"],
+    ["Lumen nakon zagrevanja", "2800 ± 10% lm"],
+  ],
+},
+
 };
